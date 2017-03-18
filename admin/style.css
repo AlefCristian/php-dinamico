@@ -1,0 +1,67 @@
+/*RESETE*/
+*{margin: 0; padding: 0}
+.ok {padding: 5px; background: #D5FFDF; border: 1px solid #0F0; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333}
+.no {padding: 5px; background: #FFDFDF; border: 1px solid #F00; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333}
+
+/*PAINEL DE LOGIN*/
+boody {background: url(images/bg.jpg) repeat-x #fff}
+.alert {padding: 10px; background: #FFFFD9; border: 1px solid #FF0; margin: 5px 0; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif}
+#painel_login {width: 310px; padding: 5px; margin: 5px auto 0; background: #f4f4f4; border: 1px solid #333}
+#painel_login fieldset {border: 0}
+#painel_login legend {font: 18px Georgia, "Times New Roman", Times, serif; color: #069; text-shadow: 0 0 1px #333; font-weight: bold}
+#painel_login span {display: block; font: 14px Georgia, "Times New Roman", Times, serif; color: #333; font-weight: bold; margin: 5px 0}
+#painel_login input {width: 284px; padding: 3px; border: 1px solid #069}
+#painel_login .login_btn {width: 150px; display: block; margin: 5px auto; background: #069; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform: uppercase; color: #FFF}
+
+
+/*CORPO DO PAINEL*/
+#box {width: 800px; margin: 0 auto}
+
+#header {height: 120px; background: url(images/bg.jpg) repeat-x; margin-bottom: 5px}
+
+#header_logo {margin: 30px 0 0 20px; float: left}
+
+#menu {width: 250px; float: left; padding: 5px; background: #f4f4f4; border: 1px solid #D6D6D6}
+#menu h1 {width: 240px; float: left; padding: 5px; font: 16px Georgia, "Times New Roman", Times, serif; font-weight: bold; background: #999; color: #333}
+#menu ul {margin: 5px 0; padding: 0; list-style: none}
+#menu ul li {margin: 1px 0; float: left; font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif}
+#menu ul li a {width: 237px; padding: 2px 5px; text-decoration: none; color: #333; float: left; border-left: 3px solid #ccc}
+#menu ul li a:hover {background: #ccc; border-left: 3px solid #999}
+
+#conteudo {width: 520px; padding: 5px; margin: 0 0 0 5px; background: #F4F4F4; float: right; border: 1px solid #D6D6D6}
+#conteudo h1 {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #069; border-bottom: 2px solid #069; margin: 10px 0 5px 0; padding: 0 0 1px 0}
+#conteudo form {width: 500px; padding: 10px; background: #fff}
+#conteudo fieldset {border: 0}
+#conteudo label.error {color: #F00; font-weight: bold; font-size: 12px; display: block}
+#conteudo input.error {background: #FFB3B3; border: 1px solid #F00}
+#conteudo textarea.error {background: #FFB3B3; border: 1px solid #F00}
+#conteudo select.error {background: #FFB3B3; border: 1px solid #F00; display: block}
+#conteudo span {display: block; font: 14px Georgia, "Times New Roman", Times, serif; font-weight: bold; color: #333; margin: 5px 0}
+#conteudo input {width: 490px; padding: 3px 5px; background: #f4f4f4; border: 1px solid #333}
+#conteudo input.file {width: 490; padding: 3px 5px; background: #f4f4f4; border: 1px solid #333}
+#conteudo .lista_btn {display: block; width: 50px; margin: 0; padding: 0; background: transparent; border: 0; color: #069; cursor: pointer; font-weight: bold}
+#conteudo .lista_btn:hover {color: #09F}
+#conteudo .lista_posts {width: auto; height: auto; margin: 0; padding: 0; background: #c8c8c8}
+#conteudo textarea {width: 490px; padding: 3px 5px; background: #f4f4f4; border: 1px solid #333}
+#conteudo select {background: #f4f4f4; border: 1px solid #333}
+#conteudo .cadastro_btn {width: 150px; display: block; float: right; margin: 5px 0}
+#conteudo .cadastro_btn:hover {background: #0CF; cursor: pointer}
+#conteudo .pagina_btn {width: 150px; margin: 0 5px}
+
+
+#clear {clear: both}
+#footer {width: 798px; height: 80px; margin: 5px auto; background: #f4f4f4; border: 1px solid #D6D6D6}
+#footer_txt {float: left; font: 18px "Trebuchet MS", Arial, Helvetica, serif; font-weight: bold; text-shadow: 1px 1px 2px #666; color: #333; text-align: center; margin: 20px}
+#footer_img {float: right; margin: 15px 20px}
+
+.tabela {font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif}
+.paginator a {padding: 2px 5px; border: 1px solid #333; text-decoration: none; color: #333 }
+.paginator a:hover {background: #CCC}
+
+#lista_usuarios ul {list-style: none; margin: 0; padding: 0}
+#lista_usuarios ul li {padding: 5px; margin: 5px; background: #f4f4f4; border: 1px solid #CCC; float: left; width: 510px}
+#lista_usuarios span {float: right}
+#lista_usuarios .form {width: auto; height: auto; background: transparent; float: right; margin: 0; padding: 0}
+#lista_usuarios input {width: auto; height: auto; background: transparent; font-weight: bold; margin: 0 2px; padding: 3px}
+#lista_usuarios input:hover {color: #069}
+.usuario_editar {padding: 10px; margin: 5px 0; background: #f4f4f4}

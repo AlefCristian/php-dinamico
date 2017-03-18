@@ -1,0 +1,136 @@
+/*RESETE*/
+*{margin: 0; padding: 0}
+body {background: #999}
+.alinleft {float: left; margin-right: 8px; padding: 2px; border: 1px solid #333; background-color: #f4f4f4}
+.alinright {float: right; margin-left: 8px; padding: 2px; border: 1px solid #333; background-color: #f4f4f4}
+.info {width: 570px; margin: 0 0 10px; padding: 0; float: left; font: 12px Georgia, "Times New Roman", Times, serif; color: #999}
+
+/*BOX*/
+#box {width: 900px; margin: 0 auto}
+
+/*HEADER*/
+#header {height: 105px; background: url(../images/header.jpg) no-repeat}
+#header_logo {float: left; margin: 20px 0 0 15px}
+#header_contatos {float: right; margin: -10px 10px 0 0; font: 20px Arial, Helvetica sans-serif; color: #333; font-weight: bold; text-align: right}
+#header_contatos h1 {font-size: 13px; margin: 20px}
+
+/*MENU*/
+#menu {height: 35px; background: url(../images/menu.jpg) top repeat-x}
+#menu ul {margin: 0; padding: 0; float: left; list-style: none}
+#menu ul li {display: inline}
+#menu ul li a {text-decoration: none; color: #FFF; font-weight: bold; font: 20px Arial, Helvetica, sans-serif; float: left; padding: 5px 8px 6px; text-shadow: 1px 1px 5px #333} 
+#menu ul li a:hover {background: url(../images/menu.jpg) bottom repeat-x}
+#menu ul li img {float: left}
+#menu_search {float: right}
+#menu_search form {margin: 2px 3px}
+#menu_search input {width: 190px; padding: 3px; background: #069; border: 1px solid #FFF; color: #fff; font: 16px Tahoma, Geneva, sans-serif}
+#menu_search .search_btn {width: 80px; font: 16px Georgia, "Times New Roman", Times, serif; color: #FFF; background: #069; border: 1px solid #FFF}
+#menu_search .search_btn:hover {background: #0CC}
+
+/*CONTENT - DIV MAIN*/
+#content {width: 900px; background: #fff; float: left}
+
+/*NOTICIAS - BLOCO 1*/
+#noticias {width: 900px}
+#destaque {width: 500px; float: left; background: #EBEBEB; margin: 5px; padding: 5px; overflow: hidden}
+.pager {width: 500px; text-align: right; float: left}
+.pager a {padding: 5px; text-decoration: none; color: #069; background: #FFF; margin: 0 1px}
+#noticias_destaque {width: 500px; height: 365px}
+#noticias_destaque ul {list-style: none}
+#noticias_destaque p {margin: 0 0 10px 0; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif}
+#noticias_destaque h1 {font: 16px Georgia, "Times New Roman", Times, serif; color: #333; font-weight: bold; text-shadow: 1px 1px 1px #999}
+#noticias_destaque h1:hover {text-shadow: 1px 1px 1px #069}
+#noticias_destaque a {color: #333; text-decoration: none}
+#noticias_destaque a:hover {color: #000; text-decoration: underline}
+#noticias_lista {width: 370px; float: right; padding: 5px 5px 0; background: #fff}
+#noticias_lista a {text-decoration: none; color: #333}
+#noticias_lista ul {margin: 0; padding: 0; float: left; list-style: none}
+#noticias_lista ul li {float: left; width: 375; margin-bottom: 5px}
+#noticias_lista ul li:hover {background: #E1F5FF}
+#noticias_lista ul li:hover span {background: #036}
+#noticias_lista ul li p {margin: 2px 0; font: 12px Tahoma, Geneva, sans-serif}
+#noticias_lista span {padding: 9px; margin-right: 3px; background: #069; float: left; font: 50px "Trabuchet MS", Arial, Helvetica,sans-serif; color: #FFF;text-align: center}
+#noticias_lista img {float: left; margin-right: 3px; border: 0}
+#noticias_lista h1 {width: 370px; font: 12px Georgia, "Times New Roman", Times, serif; color: #069; font-weight: bold; text-shadow: 1px 1px 1px #999}
+#noticias_lista h2 {font: 12px Georgia, "Times New Roman", Times, serif; color: #333}
+
+/*CURSOS - BLOCO 2*/
+#cursos {width: 900px}
+#cursos_lista {width: 600px; margin: 0 5px 5px; padding: 5px; float: left; background: #EBEBEB}
+#cursos_lista ul {margin: 0; padding: 0; float: left; list-style: none}
+#cursos_lista ul li {float: left; background: #fff; padding: 3px; margin-bottom: 5px}
+#cursos_lista ul li:hover {background: #CCC}
+#cursos_lista ul li a {text-decoration: none}
+#cursos_lista ul li img {float: left; margin-right: 5px}
+#cursos_lista ul li p {margin: 0 0 10px 0; font: 14px Tahoma, Geneva, sans-serif; color: #333}
+
+#cursos_shopping {width: 260px; margin: 5px; padding: 5px; background: #333; float: right}
+#cursos_shopping a {text-decoration: none; color: #fff; font: 14px Arial, Helvetica, sans-serif}
+#cursos_shopping h1 {font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; color: #FFF; border-bottom: 3px solid #FFF; padding-bottom: 1px; margin-bottom: 3px}
+#cursos_shopping ul {margin: 0; padding: 0; float: left; list-style: none}
+#cursos_shopping ul li {float: left; padding: 10px 5px; border-bottom: 1px dotted #FFF}
+#cursos_shopping ul li:hover {background: #000}
+#cursos_shopping ul li img {float: left; margin-right: 5px; border: 0}
+#cursos_shopping ul li span {font-weight: bold; color: #F00}
+.titulo_loja {text-shadow: 1px 1px 1px #999}
+.botao_cursos {width: 215px; height: 57px; background: url(../images/menu_livros.jpg) top no-repeat; float: left; display: block; margin: 17px 10px}
+.botao_cursos:hover {background: url(../images/menu_livros.jpg) bottom no-repeat}
+
+/*EM INDEX - BLOCO 3*/
+#estudantes {width: 900px}
+#estudantes_page {width: 556px; float: left; margin: 5px; padding: 5px; font: 18px Georgia, "Times New Roman", Times, serif; color: #333}
+#estudantes_page h1 {font: 35px Tahoma, Geneva, sans-serif; color: #069; text-transform: uppercase; text-shadow: 1px 1px 5px #333}
+#estudantes_page p {margin: 10 0;}
+#estudantes_ilustra {width: 294px; height: 313px; padding: 10px; background: url(../images/estudantes.jpg) no-repeat; float: left; margin: 5px;}
+
+/*FOOTER*/
+#clear {clear: both}
+#footer {width: 900px; height: 160px;margin: 0 auto; background: #333}
+#footer_login { font: 16px Tahoma, Genova, sans-serif; font-weight: bold; color: #FFF; padding: 25px 0 0 30px; width: 370px; float: left}
+#footer_login .btn_login {width: 70px; height: 56px; font: 20px Tahoma, Genova, sans-serif; color: #333; background: #FFF; cursor: pointer; font-weight: bold}
+#footer_login .btn_login:hover {background: #333; color: #FFF}
+#footer_login form {padding: 5px}
+#footer_login input {width: 200px; padding: 3px; border: 1px solid #FFF; background: #333; font: 16px Tahoma, Genova, sans-serif; color: #FFF; font-weight: bold}
+
+#footer_empresa {width: 280px;padding: 30px 1px 0 10px; float: left; font: 14px Tahoma, Genova, sans-serif; color: #FFF; text-align: center; margin-left: 5px}
+#footer_empresa span {font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif; display: block}
+#footer_ass {float: right; margin: 35px}
+
+/*PAGINAS*/
+#page_content {background: url(../images/page_bg.jpg) repeat-y; float: left; width: 900px}
+/*SIDEBAR*/
+#sidebar {width: 300px; padding: 10px; float: left; font: 14px Georgia, "Times New Roman", Times, serif; color: #FFF}
+#sidebar h1 {font: 20px "Trebuchet MS", Arial, Helveltica, sans-serif; text-transform: uppercase; text-shadow: 1px 1px 1px #CCC; border-bottom: 3px solid #FFF; margin-bottom: 5px; padding-bottom: 1px}
+#sidebar h2 {color: #f4f4f4; text-shadow: 1px 1px 1px #FFF; font: 16px Tahoma, Geneva, sans-serif; font-weight: bold}
+#sidebar ul {margin: 5px 0; list-style: none; float: left}
+#sidebar ul li a {text-decoration: none; color: #FFF; font: 18px Georgia, "Times New Roman", Times, serif; border-bottom: 1px dotted #666; float: left; width: 300px}
+#sidebar ul li a:hover {color: #0CF; background: #666}
+#sidebar ol {margin: 5px; float: left}
+#sidebar ol li {float: left; margin: 0 35px}
+#sidebar ol li a {text-decoration: none; color: #FFF; font: 18px Georgia, "Times New Roman", Times, serif; border-bottom: 1px dotted #666; float: left; width: 270px}
+#sidebar ol li a:hover {color: #0CF; background: #666}
+/*PÁGINAS*/
+#page {width: 570px; padding: 5px; float: right; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333}
+#page a {text-decoration: none; font: 14px Georgia, "Times New Roman", Times, serif; color: #069; font-weight: bold}
+#page a:hover {color: #0Cf}
+#page h1 {font: 20px Tahoma, Geneva, sans-serif; font-weight: bold; text-transform: uppercase; text-shadow: 1px 1px 3px #333; color: #069; border-bottom: 3px solid #069; margin-bottom: 5px; padding-bottom: 3px}
+#page h2 {font: 20px Tahoma, Geneva, sans-serif; text-shadow: 1px 1px 1px #000; color: #DADADA}
+#page p {margin: 15px 0;}
+#page ul {margin: 15px 30px; list-style: square}
+#page ol {margin: 15px 40px}
+#page blockquote {margin: 15px 30px; border-left: 5px solid #069; background: #f4f4f4}
+#page form {widows: 500px; padding: 10px 30px 0px 30px; background-color: #f4f4f4; display: block; margin: 10px auto}
+#page fieldset {border: 0; background-color: #f4f4f4}
+#page legend {font: 20px Tahova, Geneva, sans-serif; text-transform: uppercase; text-shadow: 1px 1px 3px #333; color: #069}
+#page label {margin: 10px 0; font: 16px Georgia, "Times New Roman", Times, serif; color: #333; font-weight: bold; text-shadow: 1px 1px 1px #666; display: block}
+#page input {width: 494px; margin: 5px 0; padding: 3px; border: 2px solid #069; background: #333; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFF; display: block}
+#page textarea {width: 494px; margin: 5px 0; padding: 3px; border: 2px solid #069; background: #333; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFF; display: block}
+#page .contato_btn {width: 150px; display: block; margin: 0 auto; margin-bottom: 10px}
+#page .contato_btn:hover {background: #000; border: 2px solid #09F; cursor: pointer}
+#page .btn_page {width: auto; height: auto; border: 0; float: left}
+#page .compre_aqui {float: right; font: 16px Georgia, "Times New Roman", Times, serif; color: #069; font-weight: bold; margin: 10px 0}
+#page .page_form {float: left; display: block; margin: 10px 5px; width: 500px; background-color: #fff}
+.categoria {float: left; padding: 5px; background-color: #f4f4f4; width: 560px; margin: 5px 0}
+.categoria:hover {background: #D9FFFF}
+.categoria_p {font: 14px "Tribuchet MS", Arial, Helvetica, sans-serif; font-weight: normal; color: #333}
+.paginator a {padding: 2px 5px; border: 1px solid #333}
